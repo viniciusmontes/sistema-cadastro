@@ -139,7 +139,7 @@ public class Bairro extends Entidade<Integer> implements Cloneable, Serializable
 
 	@Override
 	public String toString() {
-		return String.format("Bairro [nome=%s, municipio=%s, uf=%s]", nome, municipio, uf);
+		return nome;
 	}
 
 }	
